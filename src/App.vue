@@ -1,14 +1,17 @@
 <template>
   <MainCard/>
+  <ProjectsCard/>
 </template>
 
 <script>
 import MainCard from './components/MainCard.vue'
+import ProjectsCard from './components/ProjectsCard.vue'
 
 export default {
   name: 'App',
   components: {
-    MainCard
+    MainCard,
+    ProjectsCard
   }
 }
 </script>
@@ -20,6 +23,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 20px;
 }
 </style>
