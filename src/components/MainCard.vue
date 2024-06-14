@@ -9,12 +9,12 @@
                 </div>
                 <div class="social-links">
                     <div class="link">
-                        <a href="">
+                        <a href="https://github.com/duda-kacper" target="_blank">
                             <img src="../assets/GitHub.png" alt="GitHub image not found">
                             <h2>GitHub</h2></a>
                     </div>
                     <div class="link">
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/dudakacper/" target="_blank">
                             <img src="../assets/Linkedin.png" alt="Linkedin image not found">
                             <h2>Linkedin</h2>
                         </a>
@@ -37,10 +37,10 @@
                     </div>
                     <div class="button-container">
                         <div class="projects-button">
-                            <a href="">My Projects</a>
+                            <a href="https://github.com/duda-kacper?tab=repositories" target="_blank">My Projects</a>
                         </div>
                         <div class="projects-button">
-                            <a href="">My Resume</a>
+                            <a href="https://drive.google.com/file/d/1Jfzl63MGR_9zkwHuPCUilI4Q1nAr9d2T/view?usp=sharing" target="_blank">My Resume</a>
                         </div>
                     </div>
                 </div>

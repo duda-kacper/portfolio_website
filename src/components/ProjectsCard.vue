@@ -6,7 +6,7 @@
             <img :src="projectData.ProjectsArray[index].Image" alt="Project image not found">
             <p>{{projectData.ProjectsArray[index].About}}</p>
             <div class="links">
-                <a :href="projectData.ProjectsArray[index].Link" target="_blank"><img src="../assets/Button.png" alt=""></a>
+                <a :href="projectData.ProjectsArray[index].Link1" target="_blank"><img src="../assets/Button.png" alt=""></a>
             </div>
         </div>
     </div>
@@ -34,6 +34,7 @@ export default {
     }
 
     .project-card {
+        max-width: 850px;
         margin: 10px;
         padding: 10px;
         flex-wrap: 0 0 40%;
@@ -42,7 +43,7 @@ export default {
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     .project-card img{
-        height: 10rem;
+        height: 15rem;
     }
 
     .links {
